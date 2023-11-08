@@ -12,4 +12,9 @@ public class UserController {
     public String message() {
         return "Welcome to the User Page in the settings...";
     }
+
+    @GetMapping("/bye")
+    public String reply() {
+        return "Goodbye!";
+    }
 }
