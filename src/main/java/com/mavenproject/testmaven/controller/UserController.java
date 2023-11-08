@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
 
-    @GetMapping
+    @GetMapping("/welcome")
     public String message() {
-        return "Welcome to the User Page...";
+        return "Welcome to the User Page in the settings...";
     }
 }
